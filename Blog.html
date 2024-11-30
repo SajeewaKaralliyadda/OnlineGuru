@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/Logo.png" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Onlineguru</title>
+  </head>
+
+  <body>
+    <!--Home page -->
+
+    <section id="about-banner">
+      <img src="Images/Logo.png" alt="Logo" class="logo" />
+      <div class="aboutbanner-text">
+        <div class="title-text">
+          <p>Blog</p>
+          <h4>Let's create educated citizens to create a prosperous society</h4>
+        </div>
+        <div class="banner-linkpath">
+          <p><a href="index.html">Home /</a><a href="Blog.html"> Blog</a></p>
+        </div>
+      </div>
+    </section>
+
+    <div id="sideNav">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="pages.html">Pages</a></li>
+          <li><a href="Blog.html" class="active">Blog</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="menubtn">
+      <img src="Images/menu.png" alt="Menu" id="menu" />
+    </div>
+
+    <!--content -->
+    <div class="teachers-row">
+      <div class="teachers-col">
+        <div class="teacher">
+          <img src="Images/Social2.jpg" alt="Social Media" class="blogpageimg" />
+        </div>
+        <div class="teacher-info">
+          <h3>Social media</h3>
+        </div>
+        <p>
+          Social media essay is an eye-opener for adults and children. This impact of social media
+          essay helps you understand the advantages and disadvantages of using social media.....
+        </p>
+        <button class="blogbtn"><a href="content1.html">Read More</a></button>
+      </div>
+
+      <div class="teachers-col">
+        <div class="teacher">
+          <img src="Images/binary.jpg" alt="binary" class="blogpageimg" />
+        </div>
+        <div class="teacher-info">
+          <h3>Applications of binary numbers</h3>
+        </div>
+        <p>
+          The world has evolved from simple mechanics to advanced quantum modeling. What has not
+          changed is the Human will to count the entities......
+        </p>
+        <button class="blogbtn"><a href="content2.html">Read More</a></button>
+      </div>
+
+      <div class="teachers-col">
+        <div class="teacher">
+          <img src="Images/computer.jpg" alt="computer" class="blogpageimg" />
+        </div>
+        <div class="teacher-info">
+          <h3>Computer and it's uses</h3>
+        </div>
+        <p>
+          The computer runs on a three-step cycle namely input, process, and output. Also, the
+          computer follows this cycle in every process it was asked to doThe simple computer
+          basically consists of CPU, monitor, mouse, and keyboard. Also, there are hundreds of other
+          computer parts that can be attached to it........
+        </p>
+        <button class="blogbtn"><a href="content3.html">Read More</a></button>
+      </div>
+
+      <div class="teachers-col">
+        <div class="teacher">
+          <img src="Images/internetpng.png" alt="internet" class="blogpageimg" />
+        </div>
+        <div class="teacher-info">
+          <h3>Internet</h3>
+        </div>
+        <p>
+          We live in the age of the internet. Also, it has become an important part of our life that
+          we can’t live without it. Besides, the internet is an invention of high-end science and
+          modern technology. Apart from that, we are connected to internet 24×7. Also, we can send
+          big and small messages and information faster than ever......
+        </p>
+        <button class="blogbtn"><a href="content4.html">Read More</a></button>
+      </div>
+    </div>
+    <!--footer-->
+
+    <section id="footer">
+      <div class="footer-list">
+        <ul>
+          <li class="footerli-head">Top Products</li>
+          <li><a href="#">Managed Website</a></li>
+          <li><a href="#">Manage Reputation</a></li>
+          <li><a href="#">Power Tools</a></li>
+          <li><a href="#">Marketing Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-list">
+        <ul>
+          <li class="footerli-head">Quick Links</li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Brand Assets</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-list">
+        <ul>
+          <li class="footerli-head">Features</li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Brand Assets</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-list">
+        <ul>
+          <li class="footerli-head">Resources</li>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="#">Experts</a></li>
+          <li><a href="#">Agencies</a></li>
+        </ul>
+      </div>
+      <div class="news-letter">
+        <h3>Newsletter</h3>
+        <p>You can trust us. we only send promo offers,</p>
+        <br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          autocomplete="email"
+          placeholder=" Youe Email Address"
+        />
+        <button name="subbtn" id="subbtn" onclick="Subscribe()">SUBSCRIBE</button>
+      </div>
+    </section>
+    <div class="footerlinks">
+      <ul>
+        <li>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-envelope-o"></i> </a>
+        </li>
+      </ul>
+    </div>
+    <div class="copyright"><p>Copyright ©2023 All rights reserved | Onlineguru</p></div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>

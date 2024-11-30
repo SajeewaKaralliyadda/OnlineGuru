@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/Logo.png" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Onlineguru</title>
+  </head>
+
+  <body>
+    <!--Home page -->
+
+    <section id="about-banner">
+      <img src="Images/Logo.png" alt="Logo" class="logo" />
+      <div class="aboutbanner-text">
+        <div class="title-text">
+          <p>Contact</p>
+          <h4>Let's create educated citizens to create a prosperous society</h4>
+        </div>
+        <div class="banner-linkpath">
+          <p><a href="index.html">Home /</a><a href="Contact.html"> Contact</a></p>
+        </div>
+      </div>
+    </section>
+
+    <div id="sideNav">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="pages.html">Pages</a></li>
+          <li><a href="Blog.html">Blog</a></li>
+          <li><a href="Contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="menubtn">
+      <img src="Images/menu.png" alt="Menu" id="menu" />
+    </div>
+    <!--Contact form-->
+    <div class="contactusbigbox">
+      <form action="#" name="contactus" class="contactusbigbox-form" onsubmit="return required() ">
+        <h2>Contact Us</h2>
+        <div class="sec">
+          <table class="sectable">
+            <tr>
+              <td><label for="name">Enter your name : </label></td>
+              <td><input type="text " name="name" id="name" /></td>
+            </tr>
+          </table>
+        </div>
+        <div class="sec">
+          <table class="sectable">
+            <tr>
+              <td><label for="email">Your email : </label></td>
+              <td><input type="email" name="email" id="" /></td>
+            </tr>
+          </table>
+        </div>
+        <div class="sec">
+          <table class="sectable">
+            <tr>
+              <td><label for="tel">Telephone Number : </label></td>
+              <td><input type="tel" name="tel" id="tel" /></td>
+            </tr>
+          </table>
+        </div>
+        <div class="sec">
+          <table class="sectable">
+            <tr>
+              <td><label for="comment">Your Comment : </label></td>
+              <td>
+                <textarea
+                  name="comment"
+                  id="contactcmt"
+                  cols="30"
+                  rows="10"
+                  placeholder="Type here"
+                ></textarea>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="sec">
+          <label><input type="submit" name="submit" value="Submit" class="contactus-btn" /></label>
+        </div>
+      </form>
+    </div>
+    <!--footer-->
+
+    <section id="footer">
+      <div class="footer-list">
+        <ul>
+          <li class="footerli-head">Top Products</li>
+          <li><a href="#">Managed Website</a></li>
+          <li><a href="#">Manage Reputation</a></li>
+          <li><a href="#">Power Tools</a></li>
+          <li><a href="#">Marketing Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-list">
+        <ul>
+          <li class="footerli-head">Quick Links</li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Brand Assets</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-list">
+        <ul>
+          <li class="footerli-head">Features</li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Brand Assets</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-list">
+        <ul>
+          <li class="footerli-head">Resources</li>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="#">Experts</a></li>
+          <li><a href="#">Agencies</a></li>
+        </ul>
+      </div>
+      <div class="news-letter">
+        <h3>Newsletter</h3>
+        <p>You can trust us. we only send promo offers,</p>
+        <br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          autocomplete="email"
+          placeholder=" Youe Email Address"
+        />
+        <button name="subbtn" id="subbtn" onclick="Subscribe()">SUBSCRIBE</button>
+      </div>
+    </section>
+    <div class="footerlinks">
+      <ul>
+        <li>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-envelope-o"></i> </a>
+        </li>
+      </ul>
+    </div>
+    <div class="copyright"><p>Copyright ©2023 All rights reserved | Onlineguru</p></div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
